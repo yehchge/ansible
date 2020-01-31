@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  tasks:
+
+    - name: print info
+      debug:
+        # msg: "ip:{{ansible_all_ipv4_addresses[0]}} ipv4:{{ansible_default_ipv4.address}} OS:{{ansible_distribution}}-{{ansible_distribution_version}} CUP:{{ansible_processor_vcpus}} Memory:{{ansible_memtotal_mb}} Disk:{{ansible_devices.sda.size}}"
+        msg: "ip:{{ansible_all_ipv4_addresses[0]}}  OS:{{ansible_distribution}}-{{ansible_distribution_version}} CUP:{{ansible_processor_vcpus}} Memory:{{ansible_memtotal_mb}} Disk:{{ansible_devices.sda.size}}"
+

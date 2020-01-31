@@ -1,0 +1,37 @@
+##server1 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2222
+#server1 ansible_ssh_host=127.0.0.1 ansible_ssh_port=32769 ansible_ssh_pass=docker
+
+[local]
+#server1
+
+[crawler]
+crawler1 ansible_ssh_host=172.16.2.136 ansible_ssh_user=root
+crawler2 ansible_ssh_host=172.16.2.151 ansible_ssh_user=root
+crawler3 ansible_ssh_host=172.16.2.148 ansible_ssh_user=root
+#crawler4 ansible_ssh_host=172.16.2.144 ansible_ssh_user=root
+crawler5 ansible_ssh_host=172.16.2.142 ansible_ssh_user=root
+crawler6 ansible_ssh_host=172.16.2.132 ansible_ssh_user=root
+crawler7 ansible_ssh_host=172.16.2.113 ansible_ssh_user=root
+crawler8 ansible_ssh_host=172.16.2.95 ansible_ssh_user=root
+crawler9 ansible_ssh_host=172.16.2.94 ansible_ssh_user=root
+crawler10 ansible_ssh_host=172.16.2.11 ansible_ssh_user=root
+crawler11 ansible_ssh_host=172.16.2.171 ansible_ssh_user=root
+crawler12 ansible_ssh_host=172.16.2.170 ansible_ssh_user=root
+crawler13 ansible_ssh_host=172.16.2.169 ansible_ssh_user=root
+crawler14 ansible_ssh_host=172.16.2.168 ansible_ssh_user=root
+crawler15 ansible_ssh_host=172.16.2.166 ansible_ssh_user=root
+crawler16 ansible_ssh_host=172.16.2.119 ansible_ssh_user=root
+crawler17 ansible_ssh_host=172.16.2.118 ansible_ssh_user=root
+crawler18 ansible_ssh_host=172.16.2.117 ansible_ssh_user=root
+crawler19 ansible_ssh_host=172.16.2.116 ansible_ssh_user=root
+crawler20 ansible_ssh_host=172.16.2.115 ansible_ssh_user=root
+crawler21 ansible_ssh_host=172.16.2.133 ansible_ssh_user=root
+crawler22 ansible_ssh_host=172.16.2.135 ansible_ssh_user=root
+crawler23 ansible_ssh_host=172.16.2.134 ansible_ssh_user=root
+#crawler24 ansible_ssh_host=172.16.2.128 ansible_ssh_user=root
+#crawler25 ansible_ssh_host=172.16.2.130 ansible_ssh_user=root
+crawler26 ansible_ssh_host=172.16.2.127 ansible_ssh_user=root
+#crawler27 ansible_ssh_host=172.16.2.129 ansible_ssh_user=root
+crawler28 ansible_ssh_host=172.16.2.126 ansible_ssh_user=root
+crawler29 ansible_ssh_host=172.16.2.125 ansible_ssh_user=root
+crawler30 ansible_ssh_host=172.16.2.137 ansible_ssh_user=root
